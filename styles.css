@@ -1,0 +1,147 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+ /* *************HEADER*************** */
+ 
+.titre{
+   display: flex;
+   justify-content: space-between;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+}
+li{
+    padding-right: 10px;
+    font-size:20px;
+
+}
+li a{
+    text-decoration: none;
+}
+li a:hover{
+    color: brown;
+    text-decoration: underline;
+}
+li a:focus{
+    color: ;
+    text-decoration: underline;
+}
+header{
+    background: linear-gradient(180deg,white,rgb(231, 94, 94));
+}
+/* *************PAGE PRINCIPALE ************** */
+/* ---------------SECTION1-------------- */
+
+.rechercheUn{
+    text-align: right;
+    margin: 0 50px 5px 0;
+}
+.rechercheUn button{
+    background-color: rgb(228, 47, 47);
+    border: 0px solid rgb(228, 47, 47);
+}
+.rechercheUn a{
+    color: white;
+    text-decoration: none;
+}
+.recherche{
+    margin-top: 5px;
+    border: 2px solid rgb(149, 243, 243);
+    border-radius: 10px;
+    height: 25px;
+}
+p{
+    font-size: 20px;
+}
+marquee img{
+    padding-right: 10px;
+    width:220px; 
+    height:100px;
+    border: 0px solid black;
+}
+.section1{
+    margin-top: 10px;
+    height: 400px;
+    background: linear-gradient(180deg,rgb(231, 94, 94),white);
+}
+/* ---------------SECTION2-------------- */
+#cat{
+    font-size: 12px;
+}
+.redirect{
+    background: rgb(228, 47, 47);
+    border: 0px solid rgb(228, 47, 47);
+}
+.redirect a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+legend{
+    color: rgb(228, 47, 47);
+}
+
+.section2{
+    background-color: rgb(149, 243, 243);
+}
+h2,h4,legend{
+    text-align: center;
+}
+span{
+    
+}
+.animaux{
+    display: flex;
+
+}
+.sauvage{
+    display: flex;
+}
+.sauvage1{
+    width: 3500px;
+}
+.domestique{
+    width: 3900px;
+}
+/* *****************PIED DE PAGE*************** */
+footer{
+    background: linear-gradient(180deg,rgb(231, 94, 94),white);
+    height: 300px;
+    margin-top: -20px;
+}
+form{
+    text-align: center;
+
+}
+/* form #submit{
+    width: 80px;
+    background: #000;
+    color: #fff;
+    border: solid #000;
+} */
+
+u{
+    color: #000;
+    font-size: 17px;
+    font-weight: bold;
+}
+footer hr{
+    background: blue;
+    color: blue;
+}
+form input[type=text]{
+    margin-bottom: 5px;
+}
+form input:focus{
+    border: 2px solid blue;
+}
+form a{
+    background: #000;
+}
+
+form button{
+    background: #000;
+}
